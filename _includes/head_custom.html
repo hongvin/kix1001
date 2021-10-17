@@ -1,0 +1,43 @@
+<!-- Appzi: Capture Insightful Feedback -->
+
+<script async src="https://w.appzi.io/w.js?token=wOcTT"></script>
+
+<!-- End Appzi -->
+
+<!-- Start of Woopra Code -->
+<script>
+  !function(){var t,o,c,e=window,n=document,r=arguments,a="script",i=["call","cancelAction","config","identify","push","track","trackClick","trackForm","update","visit"],s=function(){var t,o=this,c=function(t){o[t]=function(){return o._e.push([t].concat(Array.prototype.slice.call(arguments,0))),o}};for(o._e=[],t=0;t<i.length;t++)c(i[t])};for(e.__woo=e.__woo||{},t=0;t<r.length;t++)e.__woo[r[t]]=e[r[t]]=e[r[t]]||new s;(o=n.createElement(a)).async=1,o.src="https://static.woopra.com/js/w.js",(c=n.getElementsByTagName(a)[0]).parentNode.insertBefore(o,c)}("woopra");
+
+  woopra.config({
+      domain: 'hongvin.xyz'
+  });
+  woopra.track();
+</script>
+<!-- End of Woopra Code -->
+
+<script src="https://use.fontawesome.com/aa0ec4a402.js"></script>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+{% if page.mathjax %}
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "SVG": {linebreaks: { automatic: true }}
+  });
+window.addEventListener('resize', MJrerender);
+function MJrerender(){
+MathJax.Hub.Queue(["Rerender",MathJax.Hub])
+};
+</script>
+
+<script type="text/x-mathjax-config">
+  {{ site.mathjax.config }};
+</script>
+<script type="text/javascript" async 
+  src="{{ site.mathjax.source }}">
+</script>
+{% endif %}
+
+{% if page.mathematica %}
+<script crossorigin src="https://unpkg.com/wolfram-notebook-embedder@0.1/dist/wolfram-notebook-embedder.min.js"></script>
+{% endif %}

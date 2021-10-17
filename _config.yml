@@ -1,0 +1,18 @@
+remote_theme: pmarsceill/just-the-docs
+title: KIX1001 Tutorial
+description: KIX1001 Tutorial solution
+
+aux_links:
+  "About Me":
+    - "about"
+  "GitHub":
+    - "//github.com/hongvin/kix1001"
+
+heading_anchors: true
+
+compress_html:
+  blanklines: true
+mathjax:
+  source: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML
+
+footer_content: "Copyright &copy; 2021 Koay Hong Vin."
