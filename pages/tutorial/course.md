@@ -17,6 +17,16 @@ This website contains all necessary info for the tutorial of KIX1001!
 
 ---
 
+## General Information for Tutorial Class
+
+1. The schedule of tutorial is available over [here]({{ site.url }}/tutorial).
+2. The class will be conducted through [Google Meet](https://meet.google.com/drr-pjaw-aui)
+3. Please join the [Telegram Group](https://t.me/joinchat/a5gR89hlzMxjODhl)
+4. The Telegram Bot is available [here](https://t.me/KIX1001Helper_bot) to check your attendance and submit assignment.
+5. Please be punctual. 
+6. Extra resources are available in this website, such as solving the questions using [MATLAB]({{ site.url }}/matlab), [Python]({{ site.url }}/python), [Mathematica]({{ site.url }}/mathematica). Not compulsory, but for your own knowledge!
+7. Ask if you need any help.
+
 ## Marks Distribution
 
 | Assessment | Topics | Dates | Percentage (%) |
@@ -32,3 +42,24 @@ This website contains all necessary info for the tutorial of KIX1001!
 | Final Exam Q4 | Power Series Solution for DE (Week 13-14) | Exam Week | 15 |
 | **Total Final Exam (B):** | | | **60** |
 | **Total Marks (A+B):** | | | **100** |
+
+### How to use this website
+
+This website is retype into web format, allowing you to do revision easily. You can opt to print by using the pre-compiled PDF on every tutorial top page.
+
+### The technology behind this website
+
+Ever wonder how this website is built? The website uses the following technologies:
+
+- Markdown: Formatting the pages
+- Jekyll: Posting the Markdown file into nice HTML
+- LaTeX: All the mathematics font rendered.
+
+LaTeX is a good tool to format and linting mathematical equations. Not only it is nice to view, it can support long, complex mathematic equations, which could not support well by Microsoft Word Equation.
+
+### Source Code
+
+All the source code of this website is available in [Github](https://github.com/hongvin/KIX1001). Go ahead and star the repo and follow me!
+
+<a class="github-button" href="https://github.com/hongvin/KIX1001" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star hongvin/KIX1001 on GitHub">Star</a>
+<a class="github-button" href="https://github.com/hongvin" data-size="large" data-show-count="true" aria-label="Follow @hongvin on GitHub">Follow @hongvin</a>
