@@ -197,7 +197,7 @@ Note that $$\frac{d}{dx} (\log_b(x))=\frac{1}{\ln{(b)}\cdot x}=\frac{1}{x}\cdot\
 $$\begin{aligned}
 \frac{d}{dx}(\log{4+\cos{x}})
 &= \frac{1}{4+\cos{x}}\cdot\log{e} \cdot\frac{d}{dx} (4+\cos{x}) \\
-&= \frac{1}{4+\cos{x}}\cdot\log{e} \cdot\sin{x} \\
+&= \frac{1}{4+\cos{x}}\cdot\log{e} \cdot(-\sin{x}) \\
 &= \boldsymbol{\frac{-(\log{e})(\sin{x})}{4+\cos{x}}}
 \end{aligned}$$
 
@@ -212,8 +212,8 @@ $$\begin{aligned}
 10e^{2xy}&=e^{15y}+e^{13x} \\
 10e^{2xy}(2x\cdot y'+2y)&=e^{15y}(15y')+e^{13x}(13) \\
 10e^{2xy}(2x\cdot y'+2y)&=15y'e^{15y}+13e^{13x} \\
-(20e^{2xy}-15e^{15y})y'&=13e^{13x}-20ye^{2xy} \\
-\boldsymbol{y'}&=\boldsymbol{\frac{13e^{13x}-20ye^{2xy}}{20e^{2xy}-15e^{15y}}}
+(20xe^{2xy}-15e^{15y})y'&=13e^{13x}-20ye^{2xy} \\
+\boldsymbol{y'}&=\boldsymbol{\frac{13e^{13x}-20ye^{2xy}}{20xe^{2xy}-15e^{15y}}}
 \end{aligned}$$
 
 ---

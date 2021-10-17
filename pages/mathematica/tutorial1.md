@@ -8,6 +8,8 @@ mathematica: true
 permalink: /mathematica1
 ---
 
+##### Note that the notebook plugin takes some time to load.
+
 <div id="container"></div>
 
 <script>
