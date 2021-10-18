@@ -240,7 +240,7 @@ $$\begin{aligned}
 
 ### Solution
 
-- $$\frac{d}{dx} 4x\sinh^{-1}{(\frac{x}{6})}=4x\left[\frac{1}{\sqrt{1+(\frac{x}{6})^2}}\cdot\frac{1}{6}\right]+\sinh^{-1}{(\frac{x}{6})}=\frac{\frac{2x}{3}}{\sqrt{1+\frac{x^2}{36}}}+4\sinh^{-1}{(\frac{x}{6})}$$
+- $$\frac{d}{dx} 4x\sinh^{-1}{(\frac{x}{6})}=4x\left[\frac{1}{\sqrt{1+(\frac{x}{6})^2}}\cdot\frac{1}{6}\right]+\sinh^{-1}{(\frac{x}{6})}\cdot4=\frac{\frac{2x}{3}}{\sqrt{1+\frac{x^2}{36}}}+4\sinh^{-1}{(\frac{x}{6})}$$
 
 - $$\frac{d}{dx} \tanh^{-1}{(\cos{10x})}=\frac{1}{1-(\cos{10x})^2}\cdot\frac{d}{dx}\cos{10x}=\frac{1}{1-\cos^2{10x}}\cdot(-10\sin{10x})=\frac{-10\sin{10x}}{\sin^2{10x}}=-10\csc{10x}$$
 
