@@ -16,3 +16,5 @@ mathjax:
   source: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML
 
 footer_content: "Copyright &copy; 2021 Koay Hong Vin."
+
+ga_tracking: G-5N8F2KJCSC
