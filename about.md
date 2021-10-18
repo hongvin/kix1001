@@ -6,9 +6,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-About 
-{: .fw-400 .fs-8 .lh-0 }
-Hong Vin {: .fw-700 .text-center .text-blue-200 .fs-8 .lh-0 }
+# About <b>Hong Vin</b>
 
 <div style="text-align: center !important">
 	<a href="https://facebook.com/khvin" target="_blank">
