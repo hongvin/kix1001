@@ -25,6 +25,6 @@ Both PDF above is almost 400 pages, which sums to almost RM 40 if printed at RM 
 
 ### BUY NOW!
 
-[Buy Now](){: .btn .btn-green }
+[Buy Now](https://forms.gle/WYWKqD7fPKHpHQW18){: .btn .btn-green }
 
-All books will be ship-out to your respective KKs on 1 November 2021. Please follow the instructions in the Google Form.
+All books will be ship-out to your respective KKs. Please follow the instructions in the Google Form.
