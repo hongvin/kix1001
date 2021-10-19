@@ -21,4 +21,10 @@ Please make sure you have a valid MathWorks Account. Follow the Steps 1 to 6 [he
 
 ![MATLAB Online Step 1](images/o1.png)
 
-###
+### 2. Sign in and you will be presented with the following screen.
+
+![MATLAB Online Step 2](images/o2.png)
+
+### 3. Selecting "Open MATLAB Online" and you will see the MATLAB Web version! 
+
+![MATLAB Online Step 1](images/o3.png)

@@ -2,7 +2,7 @@
 layout: default
 parent: MATLAB
 title:  "Introduction to MATLAB"
-nav_order: 2
+nav_order: 3
 mathjax: true
 permalink: /intro_matlab
 ---

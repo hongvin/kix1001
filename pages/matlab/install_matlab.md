@@ -56,4 +56,3 @@ permalink: /install_matlab
 
 ![Step 11](images/s11.png)
 
-### 12. 
