@@ -8,4 +8,4 @@ nav_exclude: true
 search_exclude: true
 ---
 
-{% include slide/welcome.html %}
+{% include_relative raw/welcome.html %}
