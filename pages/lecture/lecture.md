@@ -24,9 +24,9 @@ Both PDF above is almost 400 pages, which sums to almost RM 40 if printed at RM 
 | Typical black comb binding | Perfect binding |
 
 <p float="left">
-  <img src="/pages/lecture/images/1.png" width="400" />
-  <img src="/pages/lecture/images/2.png" width="400" /> 
-  <img src="/pages/lecture/images/flip.gif" width="400" />
+  <img src="/pages/lecture/images/1.png" width="300" />
+  <img src="/pages/lecture/images/2.png" width="300" /> 
+  <img src="/pages/lecture/images/flip.gif" width="300" />
 </p>
 
 ### BUY NOW!
