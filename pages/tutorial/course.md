@@ -14,7 +14,7 @@ This website contains all necessary info for the tutorial of KIX1001!
 ---
 
 [Tutorial Schedule]({{ site.url }}/tutorial){: .btn .btn-purple }
-[Google Meet Link](https://meet.google.com/drr-pjaw-aui)
+[Google Meet Link](https://meet.google.com/drr-pjaw-aui){: .btn .btn-green }
 
 ---
 
