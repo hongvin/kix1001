@@ -13,6 +13,10 @@ permalink: /tutorial1
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial1.pdf){: .btn .btn-purple }
 [Solution PDF]({{ site.url }}/pdf/solution/tutorial1.pdf){: .btn .btn-green }
 
+[Solution Slides]({{ site.url }}/pdf/slides/tutorial1.pdf){: .btn .btn-outline }
+[Class Whiteboard]({{ site.url }}/pdf/whiteboard/tutorial1.pdf){: .btn .btn-outline }
+[Class Recording](){: .btn .btn-outline }
+
 [Solving using MATLAB]({{ site.url }}/matlab1){: .btn .btn-outline }
 [Solving using Python]({{ site.url }}/python1){: .btn .btn-outline }
 [Solving using Mathematica]({{ site.url }}/mathematica1){: .btn .btn-outline }
