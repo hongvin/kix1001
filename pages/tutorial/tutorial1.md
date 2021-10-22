@@ -196,7 +196,7 @@ $$\begin{aligned}
 
 ### Solution
 
-Note that $$\frac{d}{dx} (\log_b(x))=\frac{1}{\ln{(b)}\cdot x}=\frac{1}{x}\cdot\log{e}$$
+Note that $$\frac{d}{dx} (\log_{b} (x))=\frac{1}{\ln (b)\cdot x} .\ \Longrightarrow \frac{d}{dx} (\log_{10} (x))=\frac{1}{\ln (10)\cdot x} =\frac{1}{x} \cdot \log e$$. ($$\displaystyle \frac{1}{\ln 10} =\log e$$)
 
 $$\begin{aligned}
 \frac{d}{dx}(\log{4+\cos{x}})
