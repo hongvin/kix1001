@@ -14,7 +14,9 @@ This website contains all necessary info for the tutorial of KIX1001! I am your 
 ---
 
 [Tutorial Schedule]({{ site.url }}/tutorial){: .btn .btn-purple }
+
 [Google Meet Link](https://meet.google.com/drr-pjaw-aui){: .btn .btn-green }
+[Personal Information Form](https://airtable.com/shrwrDqqO8amEDrEA){: .btn .btn-red }
 
 ---
 
@@ -23,10 +25,11 @@ This website contains all necessary info for the tutorial of KIX1001! I am your 
 1. The schedule of tutorial is available over [here]({{ site.url }}/tutorial).
 2. The class will be conducted through [Google Meet](https://meet.google.com/drr-pjaw-aui)
 3. Please join the [Telegram Group](https://t.me/joinchat/a5gR89hlzMxjODhl)
-4. The Telegram Bot is available [here](https://t.me/KIX1001Helper_bot) to check your attendance and submit assignment.
-5. Please be punctual. 
-6. Extra resources are available in this website, such as solving the questions using [MATLAB]({{ site.url }}/matlab), [Python]({{ site.url }}/python), [Mathematica]({{ site.url }}/mathematica). Not compulsory, but for your own knowledge!
-7. Ask if you need any help.
+4. Fill up your information through the form [here](https://airtable.com/shrwrDqqO8amEDrEA)
+5. The Telegram Bot is available [here](https://t.me/KIX1001Helper_bot) to check your attendance and submit assignment.
+6. Please be punctual. 
+7. Extra resources are available in this website, such as solving the questions using [MATLAB]({{ site.url }}/matlab), [Python]({{ site.url }}/python), [Mathematica]({{ site.url }}/mathematica). Not compulsory, but for your own knowledge!
+8. Ask if you need any help.
 
 ## Marks Distribution
 
