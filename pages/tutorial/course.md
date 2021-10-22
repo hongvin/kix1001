@@ -25,7 +25,7 @@ This website contains all necessary info for the tutorial of KIX1001! I am your 
 
 1. The schedule of tutorial is available over [here]({{ site.url }}/tutorial).
 2. The class will be conducted through [Google Meet](https://meet.google.com/drr-pjaw-aui)
-3. Please join the [Telegram Group](https://t.me/joinchat/a5gR89hlzMxjODhl)
+3. Please join the [Telegram Group](https://t.me/joinchat/a5gR89hlzMxjODhl) and [WhatsApp Group](https://chat.whatsapp.com/Gs9bm4sQxVXBEe6zsH4kw5).
 4. Fill up your information through the form [here](https://airtable.com/shrwrDqqO8amEDrEA)
 5. Please be punctual. 
 6. Extra resources are available in this website, such as solving the questions using [MATLAB]({{ site.url }}/matlab), [Python]({{ site.url }}/python), [Mathematica]({{ site.url }}/mathematica). Not compulsory, but for your own knowledge!
