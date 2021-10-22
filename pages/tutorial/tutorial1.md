@@ -15,7 +15,7 @@ permalink: /tutorial1
 
 [Solution Slides]({{ site.url }}/pdf/slides/tutorial1.pdf){: .btn .btn-outline }
 [Class Whiteboard]({{ site.url }}/pdf/whiteboard/tutorial1.pdf){: .btn .btn-outline }
-[Class Recording](){: .btn .btn-outline }
+[Class Recording](https://drive.google.com/file/d/1f4ZLlOoYdxfO5lQJcRbunrakb9VmKuAh/view?usp=sharing){: .btn .btn-outline }
 
 [Solving using MATLAB]({{ site.url }}/matlab1){: .btn .btn-outline }
 [Solving using Python]({{ site.url }}/python1){: .btn .btn-outline }
