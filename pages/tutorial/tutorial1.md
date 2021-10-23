@@ -12,7 +12,7 @@ permalink: /tutorial1
 ---
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial1.pdf){: .btn .btn-purple }
 [Solution PDF]({{ site.url }}/pdf/solution/tutorial1.pdf){: .btn .btn-green }
-[Formula Sheet]{{ site.url }}/pdf/cheatsheet/week1.pdf){: .btn }
+[Formula Sheet]({{ site.url }}/pdf/cheatsheet/week1.pdf){: .btn }
 
 [Solution Slides]({{ site.url }}/pdf/slides/tutorial1.pdf){: .btn .btn-outline }
 [Class Whiteboard]({{ site.url }}/pdf/whiteboard/tutorial1.pdf){: .btn .btn-outline }
