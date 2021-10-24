@@ -21,6 +21,12 @@ This website contains all necessary info for the tutorial of KIX1001! I am your 
 
 ---
 
+<span class="fs-8">
+[Buy Hard Copy Lecture Note](https://shopee.com.my/product/558403004/13332594245/){: .btn }
+</span>
+
+---
+
 ## General Information for Tutorial Class
 
 1. The schedule of tutorial is available over [here]({{ site.url }}/tutorial).
@@ -68,4 +74,3 @@ All the source code of this website is available in [Github](https://github.com/
 <a class="github-button" href="https://github.com/hongvin/KIX1001" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star hongvin/KIX1001 on GitHub">Star</a>
 <a class="github-button" href="https://github.com/hongvin" data-size="large" data-show-count="true" aria-label="Follow @hongvin on GitHub">Follow @hongvin</a>
 
-{% include popup.html %}
