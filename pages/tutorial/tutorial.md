@@ -9,7 +9,7 @@ has_toc: false
 
 ## Tutorial
 
-This tutorial class is scheduled on every Friday 11 am through Microsoft Teams.
+This tutorial class is scheduled on every Friday 11 am (except Week 7 and 11) through [Google Meet](https://meet.google.com/drr-pjaw-aui).
 
 | Week | Tutorial Title | Scheduled Time |
 |:-----|:---------------|:---------------|
