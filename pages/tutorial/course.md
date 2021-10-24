@@ -67,3 +67,5 @@ All the source code of this website is available in [Github](https://github.com/
 
 <a class="github-button" href="https://github.com/hongvin/KIX1001" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star hongvin/KIX1001 on GitHub">Star</a>
 <a class="github-button" href="https://github.com/hongvin" data-size="large" data-show-count="true" aria-label="Follow @hongvin on GitHub">Follow @hongvin</a>
+
+{% include popup.html %}
