@@ -37,6 +37,11 @@ This website contains all necessary info for the tutorial of KIX1001! I am your 
 6. Extra resources are available in this website, such as solving the questions using [MATLAB]({{ site.url }}/matlab), [Python]({{ site.url }}/python), [Mathematica]({{ site.url }}/mathematica). Not compulsory, but for your own knowledge!
 7. Ask if you need any help.
 
+## Website Usage Agreement
+
+1. **It is suggested that you view the solution online, and do not share the solution to your junior!**
+2. The solution for tutorial will be taken down right before the exam started.
+
 ## Marks Distribution
 
 | Assessment | Topics | Dates | Percentage (%) |
