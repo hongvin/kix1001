@@ -14,8 +14,8 @@ permalink: /tutorial2
 [Solution PDF]({{ site.url }}/pdf/solution/tutorial2.pdf){: .btn .btn-green }
 
 [Solution Slides]({{ site.url }}/pdf/slides/tutorial2.pdf){: .btn .btn-outline }
-[Class Whiteboard]({{ site.url }}/pdf/whiteboard/tutorial2.pdf){: .btn .btn-outline }
-[Class Recording](){: .btn .btn-outline }
+[Class Whiteboard]({{ site.url }}/pdf/whiteboard/tutorial2.png){: .btn .btn-outline }
+[Class Recording](https://drive.google.com/file/d/1BrLgJp9ob-b5qPsbDFKlSFqFwcyj9YAW/view?usp=sharing){: .btn .btn-outline }
 
 [Solving using MATLAB]({{ site.url }}/matlab2){: .btn .btn-outline }
 [Solving using Python]({{ site.url }}/python2){: .btn .btn-outline }
