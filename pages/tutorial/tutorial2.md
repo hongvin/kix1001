@@ -94,7 +94,7 @@ y'&=\frac{4\sin{x}\sin{y}}{4\cos{x}\cos{y}} \\
 
 ### Solution
 
-<img src="images/t2.1.png" alt="Figure for solution of Question 5" width="500"/>
+<img src="{{ site.url }}/tutorial/images/t2.1.png" alt="Figure for solution of Question 5" width="500"/>
 
 
 The volume is to be maximized, $$V=lwh=x(12-2x)(12-2x)=4x^3-48x^2+144x$$.
@@ -133,7 +133,7 @@ Thus, $$x=2$$.
 
 ### Solution
 
-<img src="images/t2.2.png" alt="Figure for solution of Question 6" width="300"/>
+<img src="{{ site.url }}/tutorial/images/t2.2.png" alt="Figure for solution of Question 6" width="300"/>
 
 We have RM 700, therefore $$700=10y+2x+10y+7x=20y+9x$$.
 
