@@ -130,7 +130,7 @@ $$\begin{aligned}
 \frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}\right)&= \boldsymbol{y^2z^2e^{xy}} \\
 \frac{\partial}{\partial y}\left(\frac{\partial f}{\partial y}\right)&= \boldsymbol{x^2z^2e^{xy}-2xz\sin{(y^2z)-4xy^2z^2\cos{(y^2z)}}} \\
 \frac{\partial}{\partial z}\left(\frac{\partial f}{\partial z}\right)&= \boldsymbol{2e^{xy}-xy^4\cos{(y^2z)}} \\
-\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial y}\right)&=\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial x}\right)= \boldsymbol{2xze^{xy}-2xy\sin{(y^2z)}-2xy^3z\cos{(y^2z)}} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial y}\right)&=\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial x}\right)= \boldsymbol{z^{2} e^{xy} +z^{2} xye^{xy} -2yz\sin\left( y^{2} z\right)} \\
 \frac{\partial}{\partial y}\left(\frac{\partial f}{\partial z}\right)&= \frac{\partial}{\partial z}\left(\frac{\partial f}{\partial y}\right) = \boldsymbol{2xze^{xy}-2xy\sin{(y^2z)}-2xy^3z\cos{(y^2z)}} \\
 \frac{\partial}{\partial z}\left(\frac{\partial f}{\partial x}\right)&= \frac{\partial}{\partial x}\left(\frac{\partial f}{\partial z}\right) = \boldsymbol{2yze^{xy}-y^2\sin{(y^2z)}} \\
 \end{aligned}$$
