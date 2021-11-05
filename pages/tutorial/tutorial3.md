@@ -15,7 +15,7 @@ permalink: /tutorial3
 
 ---
 
-## Q1: Find the partial derivatives $$(\frac{\delta f}{\delta y})$$ and $$(\frac{\delta f}{\delta x})$$ of these functions using the limit definition.
+## Q1: Find the partial derivatives $$(\frac{\partial f}{\partial y})$$ and $$(\frac{\partial f}{\partial x})$$ of these functions using the limit definition.
 
 (a) $$f(x,y)=x^2-4xy+y^2$$ 
 (b) $$f(x,y)=2x^3+3xy-y^2$$ 
@@ -25,7 +25,7 @@ permalink: /tutorial3
 #### <u>Question (a)</u>
 
 $$\begin{aligned}
-\frac{\delta f}{\delta x}&= \lim_{h \rightarrow 0} \frac{f(x+h,y)-f(x,y)}{h} \\
+\frac{\partial f}{\partial x}&= \lim_{h \rightarrow 0} \frac{f(x+h,y)-f(x,y)}{h} \\
 &= \lim_{h \rightarrow 0} \frac{(x+h)^2-4(x+h)y+y^2-(x^2-4xy+y^2)}{h} \\
 &= \lim_{h \rightarrow 0} \frac{x^2+2xh+h^2-4xy-4hy+y^2-(x^2-4xy+y^2)}{h} \\
 &= \lim_{h \rightarrow 0} \frac{2xh+h^2-4hy}{h} \\
@@ -34,7 +34,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 $$\begin{aligned}
-\frac{\delta f}{\delta y}&= \lim_{h \rightarrow 0} \frac{f(x,y+h)-f(x,y)}{h} \\
+\frac{\partial f}{\partial y}&= \lim_{h \rightarrow 0} \frac{f(x,y+h)-f(x,y)}{h} \\
 &= \lim_{h \rightarrow 0} \frac{x^2-4x(y+h)+(y+h)^2-(x^2-4xy+y^2)}{h} \\
 &= \lim_{h \rightarrow 0} \frac{x^2-4xy-4xh+y^2+2yh+h^2-(x^2-4xy+y^2)}{h} \\
 &= \lim_{h \rightarrow 0} \frac{-4xh+2yh+h^2}{h} \\
@@ -45,14 +45,14 @@ $$\begin{aligned}
 #### <u>Question (b)</u>
 
 $$\begin{aligned}
-\frac{\delta f}{\delta x} &= \lim_{h \rightarrow 0} \frac{f(x+h,y)-f(x,y)}{h} \\
+\frac{\partial f}{\partial x} &= \lim_{h \rightarrow 0} \frac{f(x+h,y)-f(x,y)}{h} \\
 &= \lim_{h \rightarrow 0} \frac{h(6x^2+6xh+2h^2+3y)}{h} \\
 &= \lim_{h \rightarrow 0} (6x^2+6xh+2h^2+3y) \\
 &= \boldsymbol{6x^2+3y}
 \end{aligned}$$
 
 $$\begin{aligned}
-\frac{\delta f}{\delta y} &= \lim_{h \rightarrow 0} \frac{f(x,y+h)-f(x,y)}{h} \\
+\frac{\partial f}{\partial y} &= \lim_{h \rightarrow 0} \frac{f(x,y+h)-f(x,y)}{h} \\
 &= \lim_{h \rightarrow 0} \frac{h(3x-2y-h)}{h} \\
 &= \lim_{h \rightarrow 0} (3x-2y-h) \\
 &= \boldsymbol{3x-2y}
@@ -78,61 +78,61 @@ $$\begin{aligned}
 #### <u>Question (a)</u>
 
 $$\begin{aligned}
-\frac{\delta f}{\delta x}&= \boldsymbol{2xy^3+1} \\
-\frac{\delta f}{\delta y}&= \boldsymbol{3x^2y^2+3} \\
-\frac{\delta}{\delta x}\left(\frac{\delta f}{\delta x}\right)&= \boldsymbol{2y^3} \\
-\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta x}\right)&= \boldsymbol{6xy^2} \\
-\frac{\delta}{\delta x}\left(\frac{\delta f}{\delta y}\right)&= \boldsymbol{6xy^2} \\
-\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta y}\right)&= \boldsymbol{6x^2y} \\
+\frac{\partial f}{\partial x}&= \boldsymbol{2xy^3+1} \\
+\frac{\partial f}{\partial y}&= \boldsymbol{3x^2y^2+3} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}\right)&= \boldsymbol{2y^3} \\
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial x}\right)&= \boldsymbol{6xy^2} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial y}\right)&= \boldsymbol{6xy^2} \\
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial y}\right)&= \boldsymbol{6x^2y} \\
 \end{aligned}$$
 
 
 #### <u>Question (b)</u>
 
 $$\begin{aligned}
-\frac{\delta f}{\delta x}&= \boldsymbol{y\cos{x}+\cos{y}} \\
-\frac{\delta f}{\delta y}&= \boldsymbol{\sin{x}-x\sin{y}} \\
-\frac{\delta}{\delta x}\left(\frac{\delta f}{\delta x}\right)&= \boldsymbol{-y\sin{x}} \\
-\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta x}\right)&= \boldsymbol{\cos{x}-\sin{y}} \\
-\frac{\delta}{\delta x}\left(\frac{\delta f}{\delta y}\right)&= \boldsymbol{\cos{x}-\sin{y}} \\
-\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta y}\right)&= \boldsymbol{-x\cos{y}} \\
+\frac{\partial f}{\partial x}&= \boldsymbol{y\cos{x}+\cos{y}} \\
+\frac{\partial f}{\partial y}&= \boldsymbol{\sin{x}-x\sin{y}} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}\right)&= \boldsymbol{-y\sin{x}} \\
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial x}\right)&= \boldsymbol{\cos{x}-\sin{y}} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial y}\right)&= \boldsymbol{\cos{x}-\sin{y}} \\
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial y}\right)&= \boldsymbol{-x\cos{y}} \\
 \end{aligned}$$
 
 
 #### <u>Question (c)</u>
 
 $$\begin{aligned}
-\frac{\delta f}{\delta x}&= \boldsymbol{4x^3\sin{3y}} \\
-\frac{\delta f}{\delta y}&= \boldsymbol{3x^4\cos{3y}} \\
-\frac{\delta}{\delta x}\left(\frac{\delta f}{\delta x}\right)&= \boldsymbol{12x^2\sin{3y}} \\
-\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta x}\right)&= \boldsymbol{12x^3\cos{3y}} \\
-\frac{\delta}{\delta x}\left(\frac{\delta f}{\delta y}\right)&= \boldsymbol{12x^3\cos{3y}} \\
-\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta y}\right)&= \boldsymbol{-9x^4\sin{3y}} \\
+\frac{\partial f}{\partial x}&= \boldsymbol{4x^3\sin{3y}} \\
+\frac{\partial f}{\partial y}&= \boldsymbol{3x^4\cos{3y}} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}\right)&= \boldsymbol{12x^2\sin{3y}} \\
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial x}\right)&= \boldsymbol{12x^3\cos{3y}} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial y}\right)&= \boldsymbol{12x^3\cos{3y}} \\
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial y}\right)&= \boldsymbol{-9x^4\sin{3y}} \\
 \end{aligned}$$
 
 #### <u>Question (d)</u>
 
 $$\begin{aligned}
-\frac{\delta f}{\delta x}&= \boldsymbol{e^{xy}(2xy-y^2+2)} \\
-\frac{\delta f}{\delta y}&= \boldsymbol{e^{xy}(2x^2-xy-1)} \\
-\frac{\delta}{\delta x}\left(\frac{\delta f}{\delta x}\right)&= \boldsymbol{e^{xy}(2xy^2-y^3+4y)} \\
-\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta x}\right)&= \boldsymbol{e^{xy}(2x^3y-xy^2+4x-2y)} \\
-\frac{\delta}{\delta x}\left(\frac{\delta f}{\delta y}\right)&= \boldsymbol{e^{xy}(2x^2y-xy^2+4x-2y)} \\
-\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta y}\right)&= \boldsymbol{e^{xy}(2x^3-x^2y-2x)} \\
+\frac{\partial f}{\partial x}&= \boldsymbol{e^{xy}(2xy-y^2+2)} \\
+\frac{\partial f}{\partial y}&= \boldsymbol{e^{xy}(2x^2-xy-1)} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}\right)&= \boldsymbol{e^{xy}(2xy^2-y^3+4y)} \\
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial x}\right)&= \boldsymbol{e^{xy}(2x^3y-xy^2+4x-2y)} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial y}\right)&= \boldsymbol{e^{xy}(2x^2y-xy^2+4x-2y)} \\
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial y}\right)&= \boldsymbol{e^{xy}(2x^3-x^2y-2x)} \\
 \end{aligned}$$
 
 #### <u>Question (e)</u>
 
 $$\begin{aligned}
-\frac{\delta f}{\delta x}&= \boldsymbol{yz^2e^{xy}+\cos{(y^2z)}} \\
-\frac{\delta f}{\delta y}&= \boldsymbol{xz^2e^{xy}-2xyz\sin{(y^2z)}} \\
-\frac{\delta f}{\delta z}&= \boldsymbol{2ze^{xy}-xy^2\sin{(y^2z)}} \\
-\frac{\delta}{\delta x}\left(\frac{\delta f}{\delta x}\right)&= \boldsymbol{y^2z^2e^{xy}} \\
-\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta y}\right)&= \boldsymbol{x^2z^2e^{xy}-2xz\sin{(y^2z)-4xy^2z^2\cos{(y^2z)}}} \\
-\frac{\delta}{\delta z}\left(\frac{\delta f}{\delta z}\right)&= \boldsymbol{2e^{xy}-xy^4\cos{(y^2z)}} \\
-\frac{\delta}{\delta x}\left(\frac{\delta f}{\delta y}\right)&=\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta x}\right)= \boldsymbol{2xze^{xy}-2xy\sin{(y^2z)}-2xy^3z\cos{(y^2z)}} \\
-\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta z}\right)&= \frac{\delta}{\delta z}\left(\frac{\delta f}{\delta y}\right) = \boldsymbol{2xze^{xy}-2xy\sin{(y^2z)}-2xy^3z\cos{(y^2z)}} \\
-\frac{\delta}{\delta z}\left(\frac{\delta f}{\delta x}\right)&= \frac{\delta}{\delta x}\left(\frac{\delta f}{\delta z}\right) = \boldsymbol{2yze^{xy}-y^2\sin{(y^2z)}} \\
+\frac{\partial f}{\partial x}&= \boldsymbol{yz^2e^{xy}+\cos{(y^2z)}} \\
+\frac{\partial f}{\partial y}&= \boldsymbol{xz^2e^{xy}-2xyz\sin{(y^2z)}} \\
+\frac{\partial f}{\partial z}&= \boldsymbol{2ze^{xy}-xy^2\sin{(y^2z)}} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}\right)&= \boldsymbol{y^2z^2e^{xy}} \\
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial y}\right)&= \boldsymbol{x^2z^2e^{xy}-2xz\sin{(y^2z)-4xy^2z^2\cos{(y^2z)}}} \\
+\frac{\partial}{\partial z}\left(\frac{\partial f}{\partial z}\right)&= \boldsymbol{2e^{xy}-xy^4\cos{(y^2z)}} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial y}\right)&=\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial x}\right)= \boldsymbol{2xze^{xy}-2xy\sin{(y^2z)}-2xy^3z\cos{(y^2z)}} \\
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial z}\right)&= \frac{\partial}{\partial z}\left(\frac{\partial f}{\partial y}\right) = \boldsymbol{2xze^{xy}-2xy\sin{(y^2z)}-2xy^3z\cos{(y^2z)}} \\
+\frac{\partial}{\partial z}\left(\frac{\partial f}{\partial x}\right)&= \frac{\partial}{\partial x}\left(\frac{\partial f}{\partial z}\right) = \boldsymbol{2yze^{xy}-y^2\sin{(y^2z)}} \\
 \end{aligned}$$
 
 ---
@@ -195,12 +195,12 @@ $$z=\frac{x}{y^2}+\frac{1}{x^3}+\log{(x+y)}$$
 ### Solution
 
 $$\begin{aligned}
-\frac{\delta z}{\delta x}&=\boldsymbol{\frac{1}{y^2}-\frac{3}{x^4}+\frac{1}{x+y}} \\
-\frac{\delta z}{\delta y}&=\boldsymbol{\frac{-2x}{y^3}+\frac{1}{x+y}} \\
-\frac{\delta}{\delta x}\left(\frac{\delta f}{\delta x}\right)&= \boldsymbol{\frac{12}{x^5}+\frac{-1}{(x+y)^2}} \\
-\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta x}\right)&= \boldsymbol{\frac{-2}{y^3}+\frac{-1}{(x+y)^2}} \\
-\frac{\delta}{\delta x}\left(\frac{\delta f}{\delta y}\right)&= \boldsymbol{\frac{-2}{y^3}+\frac{-1}{(x+y)^2}} \\
-\frac{\delta}{\delta y}\left(\frac{\delta f}{\delta y}\right)&= \boldsymbol{\frac{6x}{y^4}+\frac{-1}{(x+y)^2}} \\
+\frac{\partial z}{\partial x}&=\boldsymbol{\frac{1}{y^2}-\frac{3}{x^4}+\frac{1}{x+y}} \\
+\frac{\partial z}{\partial y}&=\boldsymbol{\frac{-2x}{y^3}+\frac{1}{x+y}} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}\right)&= \boldsymbol{\frac{12}{x^5}+\frac{-1}{(x+y)^2}} \\
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial x}\right)&= \boldsymbol{\frac{-2}{y^3}+\frac{-1}{(x+y)^2}} \\
+\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial y}\right)&= \boldsymbol{\frac{-2}{y^3}+\frac{-1}{(x+y)^2}} \\
+\frac{\partial}{\partial y}\left(\frac{\partial f}{\partial y}\right)&= \boldsymbol{\frac{6x}{y^4}+\frac{-1}{(x+y)^2}} \\
 \end{aligned}$$
 
 ---
@@ -238,7 +238,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 ---
-## Q6: Find $$\frac{\delta F}{\delta s}$$ and $$\frac{\delta F}{\delta t}$$,if applicable, for the following composite functions.
+## Q6: Find $$\frac{\partial F}{\partial s}$$ and $$\frac{\partial F}{\partial t}$$,if applicable, for the following composite functions.
 
 (a) $$F = \sin (x + y)$$ where $$x = 2st$$ and $$y = s^2 + t^2$$.
 
@@ -258,14 +258,14 @@ $$\begin{aligned}
 #### <u>Question (a)</u>
 
 $$\begin{aligned}
-\frac{\delta F}{\delta s}&=\frac{\delta F}{\delta x}\frac{\delta x}{\delta s}+\frac{\delta F}{\delta y} \frac{\delta y}{\delta s} \\
+\frac{\partial F}{\partial s}&=\frac{\partial F}{\partial x}\frac{\partial x}{\partial s}+\frac{\partial F}{\partial y} \frac{\partial y}{\partial s} \\
 &=\cos (x+y)(2t)+\cos (x+y)(2s) \\
 &=2t\cos (2st+s^2+t^2)+2s\cos (st+s^2+t^2) \\
 &= \boldsymbol{2\cos ((s+t)^2)(s+t)}
 \end{aligned}$$
 
 $$\begin{aligned}
-\frac{\delta F}{\delta t}&=\frac{\delta F}{\delta x}\frac{\delta x}{\delta t}+\frac{\delta F}{\delta y} \frac{\delta y}{\delta t} \\
+\frac{\partial F}{\partial t}&=\frac{\partial F}{\partial x}\frac{\partial x}{\partial t}+\frac{\partial F}{\partial y} \frac{\partial y}{\partial t} \\
 &=\cos (x+y)(2s)+\cos (x+y)(2t) \\
 &= \boldsymbol{2\cos ((s+t)^2)(s+t)}
 \end{aligned}$$
@@ -273,14 +273,14 @@ $$\begin{aligned}
 #### <u>Question (b)</u>
 
 $$\begin{aligned}
-\frac{\delta F}{\delta s}&=\frac{\delta F}{\delta x}\frac{\delta x}{\delta s}+\frac{\delta F}{\delta y} \frac{\delta y}{\delta s} \\
+\frac{\partial F}{\partial s}&=\frac{\partial F}{\partial x}\frac{\partial x}{\partial s}+\frac{\partial F}{\partial y} \frac{\partial y}{\partial s} \\
 &=e^x\cos{y}(2s)+(-\sin y)e^x(2t) \\
 &= 2se^x\cos y-2te^x\sin y \\
 &= \boldsymbol{2se^{s^2-t^2}\cos 2st-2te^{s^2-t^2}\sin 2st}
 \end{aligned}$$
 
 $$\begin{aligned}
-\frac{\delta F}{\delta t}&=\frac{\delta F}{\delta x}\frac{\delta x}{\delta t}+\frac{\delta F}{\delta y} \frac{\delta y}{\delta t} \\
+\frac{\partial F}{\partial t}&=\frac{\partial F}{\partial x}\frac{\partial x}{\partial t}+\frac{\partial F}{\partial y} \frac{\partial y}{\partial t} \\
 &=e^x\cos{y}(2t)+(-\sin y)e^x(2s) \\
 &= 2te^x\cos y-2se^x\sin y \\
 &= \boldsymbol{2te^{s^2-t^2}\cos 2st-2se^{s^2-t^2}\sin 2st}
@@ -289,7 +289,7 @@ $$\begin{aligned}
 #### <u>Question (c)</u>
 
 $$\begin{aligned}
-\frac{\delta F}{\delta s}&=\frac{\delta F}{\delta x}\frac{\delta x}{\delta s}+\frac{\delta F}{\delta y} \frac{\delta y}{\delta s}+\frac{\delta F}{\delta z} \frac{\delta z}{\delta s} \\
+\frac{\partial F}{\partial s}&=\frac{\partial F}{\partial x}\frac{\partial x}{\partial s}+\frac{\partial F}{\partial y} \frac{\partial y}{\partial s}+\frac{\partial F}{\partial z} \frac{\partial z}{\partial s} \\
 &=5(2)+(-6y)(1)+21z^2(4)\\
 &=10-6y+84z^2\\
 &=10-6(s-t)+84(4s+t)^2\\
@@ -298,7 +298,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 $$\begin{aligned}
-\frac{\delta F}{\delta t}&=\frac{\delta F}{\delta x}\frac{\delta x}{\delta t}+\frac{\delta F}{\delta y} \frac{\delta y}{\delta t}+\frac{\delta F}{\delta z} \frac{\delta z}{\delta t} \\
+\frac{\partial F}{\partial t}&=\frac{\partial F}{\partial x}\frac{\partial x}{\partial t}+\frac{\partial F}{\partial y} \frac{\partial y}{\partial t}+\frac{\partial F}{\partial z} \frac{\partial z}{\partial t} \\
 &=5(3)-6y(-1)+21z^2(1) \\
 &=15+6y+21z^2\\
 &=15+6(s-t)+21(4s-t)^2\\
@@ -309,13 +309,13 @@ $$\begin{aligned}
 #### <u>Question (d)</u>
 
 $$\begin{aligned}
-\frac{\delta F}{\delta s} & =\frac{\delta F}{\delta x}\frac{\delta x}{\delta s} +\frac{\delta F}{\delta y}\frac{\delta y}{\delta s}\\
+\frac{\partial F}{\partial s} & =\frac{\partial F}{\partial x}\frac{\partial x}{\partial s} +\frac{\partial F}{\partial y}\frac{\partial y}{\partial s}\\
  & =\frac{2x}{x^{2} +y} e^{s+t^{2}} +\frac{1}{x^{2} +y} 2s\\
  & =\mathbf{\frac{2}{x^{2} +y}\left( xe^{s+t^{2}} +s\right)}
 \end{aligned}$$
 
 $$\begin{aligned}
-\frac{\delta F}{\delta t} & =\frac{\delta F}{\delta x}\frac{\delta x}{\delta t} +\frac{\delta F}{\delta y}\frac{\delta y}{\delta t}\\
+\frac{\partial F}{\partial t} & =\frac{\partial F}{\partial x}\frac{\partial x}{\partial t} +\frac{\partial F}{\partial y}\frac{\partial y}{\partial t}\\
  & =\frac{2x}{x^{2} +y} 2te^{s+t^{2}} +\frac{1}{x^{2} +y}( 1)\\
  & =\mathbf{\frac{1}{x^{2} +y}\left( 4xte^{s+t^{2}} +1\right)}
 \end{aligned}$$
@@ -324,7 +324,7 @@ $$\begin{aligned}
 
 
 $$\begin{aligned}
-\frac{\delta F}{\delta s} & =\frac{\delta F}{\delta x}\frac{\delta x}{\delta s} +\frac{\delta F}{\delta y}\frac{\delta y}{\delta s}\\
+\frac{\partial F}{\partial s} & =\frac{\partial F}{\partial x}\frac{\partial x}{\partial s} +\frac{\partial F}{\partial y}\frac{\partial y}{\partial s}\\
  & =2xy^{2}\cos t+2x^{2} y\sin t\\
  & =2( s\cos t)\left( s^{2}\sin^{2} t\right)(\cos t) +2\left( s^{2}\cos^{2} t\right)( s\sin t)(\sin t)\\
  & =2s^{3}\cos^{2} t\sin^{2} t+2s^{3}\cos^{2} t\sin^{2} t\\
@@ -335,7 +335,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 $$\begin{aligned}
-\frac{\delta F}{\delta t} & =\frac{\delta F}{\delta x}\frac{\delta x}{\delta t} +\frac{\delta F}{\delta y}\frac{\delta y}{\delta t}\\
+\frac{\partial F}{\partial t} & =\frac{\partial F}{\partial x}\frac{\partial x}{\partial t} +\frac{\partial F}{\partial y}\frac{\partial y}{\partial t}\\
  & =2xy^{2}( -s\sin t) +2x^{2} y( s\cos t)\\
  & =2x^{2} ys\cos t-2xy^{2} s\sin t\\
  & =2\left( s^{2}\cos^{2} t\right)( s\sin t) s\cos t-2( s\cos t)\left( s^{2}\sin^{2} t\right) s\sin t\\
