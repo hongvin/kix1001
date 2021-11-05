@@ -283,7 +283,7 @@ $$\begin{aligned}
 \frac{\partial F}{\partial t}&=\frac{\partial F}{\partial x}\frac{\partial x}{\partial t}+\frac{\partial F}{\partial y} \frac{\partial y}{\partial t} \\
 &=e^x\cos{y}(2t)+(-\sin y)e^x(2s) \\
 &= 2te^x\cos y-2se^x\sin y \\
-&= \boldsymbol{2te^{s^2-t^2}\cos 2st-2se^{s^2-t^2}\sin 2st}
+&= \boldsymbol{-2te^{s^2-t^2}\cos 2st-2se^{s^2-t^2}\sin 2st}
 \end{aligned}$$
 
 #### <u>Question (c)</u>
