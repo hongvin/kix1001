@@ -665,24 +665,26 @@ $$\begin{aligned}
 
 Partial derivation yields: 
 
-$$\frac{\partial f}{\partial x} =2x\quad \quad \frac{\partial f}{\partial y} =2y\quad \quad \frac{\partial f}{\partial z} =-1$$
+$$\frac{\partial f}{\partial x} =4x\quad \quad \frac{\partial f}{\partial y} =2y\quad \quad \frac{\partial f}{\partial z} =-2z$$
 
-$$\Longrightarrow \ \frac{\partial f}{\partial x}_{( 1,2,4)} =2\quad \quad \frac{\partial f}{\partial y}_{( 1,2,4)} =4\quad \quad \frac{\partial f}{\partial z}_{( 1,2,4)} =-1$$
+$$\Longrightarrow \ \frac{\partial f}{\partial x}_{( 1,2,3)} =4\quad \quad \frac{\partial f}{\partial y}_{( 1,2,3)} =4\quad \quad \frac{\partial f}{\partial z}_{( 1,2,3)} =-6$$
 
-angent plane:
+Tangent plane:
 
 $$\begin{aligned}
 ( x-x_{o})\left(\frac{\partial f}{\partial x}\right)_{0} +( y-y_{0})\left(\frac{\partial f}{\partial y}\right)_{0} +( z-z_{0})\left(\frac{\partial f}{\partial z}\right)_{0} & =0\\
-2( x-1) +4( y-2) -1( z-4) & =0\\
-2x-2+4y-8-z+4 & =0\\
-\mathbf{2x+4y-z} & \mathbf{=6}
+4( x-1) +4( y-2) -6( z-3) & =0\\
+4x-4+4y-8-6z+18 & =0\\
+4x+4y-6z & =-6\\
+2\mathbf{x+2y-3z} & \mathbf{=-3}
 \end{aligned}$$
 
 Normal line:
 
 $$\begin{aligned}
 \frac{x-x_{0}}{\left(\frac{\partial f}{\partial x}\right)_{0}} & =\frac{y-y_{0}}{\left(\frac{\partial f}{\partial y}\right)_{0}} =\frac{z-z_{0}}{\left(\frac{\partial f}{\partial z}\right)_{0}}\\
-\mathbf{\frac{x-1}{2}} & \mathbf{=\frac{y-2}{4} =\frac{z-4}{-1}}
+\frac{x-1}{4} & =\frac{y-2}{4} =\frac{z-3}{-6}\\
+\mathbf{\frac{x-1}{2}} & \mathbf{=\frac{y-2}{2} =\frac{z-3}{-3}}
 \end{aligned}$$
 
 ---
