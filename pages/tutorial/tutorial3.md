@@ -13,6 +13,8 @@ permalink: /tutorial3
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial3.pdf){: .btn .btn-purple }
 [Solution PDF]({{ site.url }}/pdf/solution/tutorial3.pdf){: .btn .btn-green }
 
+[Class Recording](https://drive.google.com/file/d/1o14hb12aRSKYOLGxTzHV7-FyKZ8cXd2l/view?usp=sharing){: .btn .btn-outline }
+
 ---
 
 ## Q1: Find the partial derivatives $$(\frac{\partial f}{\partial y})$$ and $$(\frac{\partial f}{\partial x})$$ of these functions using the limit definition.

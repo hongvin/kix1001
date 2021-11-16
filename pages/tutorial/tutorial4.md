@@ -13,6 +13,8 @@ permalink: /tutorial4
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial4.pdf){: .btn .btn-purple }
 [Solution PDF]({{ site.url }}/pdf/solution/tutorial4.pdf){: .btn .btn-green }
 
+[Class Recording](https://drive.google.com/file/d/1H_5CNghj_xd5H38XcAbFDjpYnSPV7VaW/view?usp=sharing){: .btn .btn-outline }
+
 ---
 
 ## Q1: Graphical interpretation and the effect of scalar multiplication
@@ -84,7 +86,7 @@ $$\begin{aligned}
 ---
 ### Solution
 
-$$\overrightarrow{PQ} =\overrightarrow{OQ} -\overrightarrow{OP} =\langle -2,7,-4\rangle +\langle 3,1,-2\rangle =\langle -5,6,-2\rangle$$ is a vector parallel to ine $$L$$
+$$\overrightarrow{PQ} =\overrightarrow{OQ} -\overrightarrow{OP} =\langle -2,7,-4\rangle -\langle 3,1,-2\rangle =\langle -5,6,-2\rangle$$ is a vector parallel to line $$L$$
 
 #### <u>Question (i)</u>
 
@@ -97,7 +99,7 @@ Using $$\underset{\sim }{r} =\langle 3,1,-2\rangle +t\langle -5,6,-2\rangle$$ an
 $$\begin{aligned}
 x & =3-5t\\
 y & =1+6t\\
-z & =-2-t
+z & =-2-2t
 \end{aligned}$$
 
 #### <u>Question (iii)</u>
