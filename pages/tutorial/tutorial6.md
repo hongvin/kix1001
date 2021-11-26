@@ -17,7 +17,7 @@ permalink: /tutorial6
 
 ## Q1: Let $$A=\begin{bmatrix}5 & -2 & 0\\-2 & 6 & 2\\0 & 2 & 7\end{bmatrix}$$, $$X=\begin{bmatrix}-x\\0\\x\end{bmatrix}$$ and $$B=\begin{bmatrix}2 & 2 & -1\\2 & -1 & 2\\-1 & 2 & 2\end{bmatrix}$$
 
-## (a) Find the value of $$x$ such that $$X^{T} AX=144$$
+## (a) Find the value of $$x$$ such that $$X^{T} AX=144$$
 
 ## (b) Show that $$B^{T} AB=27\begin{bmatrix}1 & 0 & 0\\0 & 2 & 0\\0 & 0 & 3\end{bmatrix}$$
 
@@ -48,7 +48,7 @@ x
  & =12x^{2}
 \end{aligned}$$
 
-$$\therefore X^{T} AX=144\rightwhitearrow 12x^{2} =144\Longrightarrow x=\pm 2\sqrt{3}$$
+$$\therefore X^{T} AX=144\Longrightarrow 12x^{2} =144\Longrightarrow x=\pm 2\sqrt{3}$$
 
 #### <u> Question (b) </u>
 
