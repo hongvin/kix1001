@@ -19,6 +19,8 @@ This website contains all necessary info for the tutorial of KIX1001! I am your 
 [Personal Information Form](https://airtable.com/shrwrDqqO8amEDrEA){: .btn .btn-blue }
 [Suggestions/Feedbacks](https://airtable.com/shrLJmFsuMAnIqujf){: .btn }
 
+[Check Your Attendance here](https://airtable.com/shr34eAUCmCEWDClF){: .btn }
+
 ---
 
 <span class="fs-8">
