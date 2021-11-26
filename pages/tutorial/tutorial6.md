@@ -15,35 +15,85 @@ permalink: /tutorial6
 
 ---
 
-## Q1: Determine a scalar $$r$$ such that $$Ax\ =rx$$ where $$A=\begin{bmatrix} 1 & 2 & -1\\ 1 & 0 & 1\\ 4 & -4 & 5 \end{bmatrix}$$ and $$x=\begin{bmatrix} -1/2\\ 1/4\\ 1 \end{bmatrix}$$
+## Q1: Let $$A=\begin{bmatrix}5 & -2 & 0\\-2 & 6 & 2\\0 & 2 & 7\end{bmatrix}$$, $$X=\begin{bmatrix}-x\\0\\x\end{bmatrix}$$ and $$B=\begin{bmatrix}2 & 2 & -1\\2 & -1 & 2\\-1 & 2 & 2\end{bmatrix}$$
+
+## (a) Find the value of $$x$ such that $$X^{T} AX=144$$
+
+## (b) Show that $$B^{T} AB=27\begin{bmatrix}1 & 0 & 0\\0 & 2 & 0\\0 & 0 & 3\end{bmatrix}$$
 
 ---
 ### Solution
 
+#### <u> Question (a) </u>
+
 $$\begin{aligned}
-\begin{bmatrix}
-1 & 2 & -1\\
-1 & 0 & 1\\
-4 & -4 & 5
+X^{T} AX & =\begin{bmatrix}
+-x & 0 & x
 \end{bmatrix}\begin{bmatrix}
--1/2\\
-1/4\\
-1
-\end{bmatrix} & =r\begin{bmatrix}
--1/2\\
-1/4\\
-1
+5 & -2 & 0\\
+-2 & 6 & 2\\
+0 & 2 & 7
+\end{bmatrix}\begin{bmatrix}
+-x\\
+0\\
+x
 \end{bmatrix}\\
-\begin{bmatrix}
--1\\
-1/2\\
-2
-\end{bmatrix} & =r\begin{bmatrix}
--1/2\\
-1/4\\
-1
+ & =\begin{bmatrix}
+-5x+0+0 & 2x+0+2x & 0+0+7x
+\end{bmatrix}\begin{bmatrix}
+-x\\
+0\\
+x
 \end{bmatrix}\\
-\mathbf{r} & \mathbf{=2}
+ & =12x^{2}
+\end{aligned}$$
+
+$$\therefore X^{T} AX=144\rightwhitearrow 12x^{2} =144\Longrightarrow x=\pm 2\sqrt{3}$$
+
+#### <u> Question (b) </u>
+
+$$\begin{aligned}
+B^{T} AB & =\begin{bmatrix}
+2 & 2 & -1\\
+2 & -1 & 2\\
+-1 & 2 & 2
+\end{bmatrix}\begin{bmatrix}
+5 & -2 & 0\\
+-2 & 6 & 2\\
+0 & 2 & 7
+\end{bmatrix}\begin{bmatrix}
+2 & 2 & -1\\
+2 & -1 & 2\\
+-1 & 2 & 2
+\end{bmatrix}\\
+ & =\begin{bmatrix}
+6 & 6 & -3\\
+12 & -6 & 12\\
+-9 & 18 & 18
+\end{bmatrix}\begin{bmatrix}
+2 & 2 & -1\\
+2 & -1 & 2\\
+-1 & 2 & 2
+\end{bmatrix}\\
+ & =3\begin{bmatrix}
+2 & 2 & -1\\
+4 & -2 & 4\\
+-3 & 6 & 6
+\end{bmatrix}\begin{bmatrix}
+2 & 2 & -1\\
+2 & -1 & 2\\
+-1 & 2 & 2
+\end{bmatrix}\\
+ & =3\begin{bmatrix}
+9 & 0 & 0\\
+0 & 18 & 0\\
+0 & 0 & 27
+\end{bmatrix}\\
+ & =27\begin{bmatrix}
+1 & 0 & 0\\
+0 & 2 & 0\\
+0 & 0 & 3
+\end{bmatrix}
 \end{aligned}$$
 
 ---
