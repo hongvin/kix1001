@@ -13,6 +13,9 @@ permalink: /tutorial5
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial5.pdf){: .btn .btn-purple }
 [Solution PDF]({{ site.url }}/pdf/solution/tutorial5.pdf){: .btn .btn-green }
 
+[Class Recording](https://drive.google.com/file/d/1DzNQNIAPAm13EvYLCyplDjYbmM66KBSx/view?usp=sharing){: .btn .btn-outline }
+[Class Whiteboard]({{ site.url }}/pdf/whiteboard/tutorial5.png){: .btn .btn-outline }
+
 ---
 
 ## Q1: Two long straight pipes are specified using Cartesian coordinates as follow:

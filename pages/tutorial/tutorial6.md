@@ -13,6 +13,9 @@ permalink: /tutorial6
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial6.pdf){: .btn .btn-purple }
 [Solution PDF]({{ site.url }}/pdf/solution/tutorial6.pdf){: .btn .btn-green }
 
+[Class Recording](https://drive.google.com/file/d/1Ev58J60b91VKnQrj3lZMmih0hZfZR1oZ/view?usp=sharing){: .btn .btn-outline }
+[Class Whiteboard]({{ site.url }}/pdf/whiteboard/tutorial6.png){: .btn .btn-outline }
+
 ---
 
 ## Q1: Let $$A=\begin{bmatrix}5 & -2 & 0\\-2 & 6 & 2\\0 & 2 & 7\end{bmatrix}$$, $$X=\begin{bmatrix}-x\\0\\x\end{bmatrix}$$ and $$B=\begin{bmatrix}2 & 2 & -1\\2 & -1 & 2\\-1 & 2 & 2\end{bmatrix}$$
