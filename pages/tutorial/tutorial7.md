@@ -165,8 +165,7 @@ x_{3} & =\frac{D_{x_{3}}}{D}\\
 
 ## Q3: By referring to the schematic below, find V1, V2, V3 and V4. Solve the problem using Cramer’s rule. 
 
-![Image for Tutorial 7 Q3](images/t7.1.png)
-
+<img src="{{ site.url }}/pages/tutorial/images/t7.1.png" alt="Figure for solution of Question 3" width="300"/>
 ---
 ### Solution
 
@@ -276,7 +275,7 @@ $$ \therefore \ V_{1} =\mathbf{1.2\ V} ;\ \ V_{2} =\mathbf{3.58\ V} ;\ \ V_{3} =
 
 ## Q4: By referring to the schematic below, find V2, and V3. Solve the problem using Cramer’s rule. 
 
-![Image for Tutorial 7 Q4](images/t7.2.png)
+<img src="{{ site.url }}/pages/tutorial/images/t7.2.png" alt="Figure for solution of Question 4" width="300"/>
 
 ---
 ### Solution
