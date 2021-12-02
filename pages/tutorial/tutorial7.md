@@ -11,6 +11,10 @@ permalink: /tutorial7
 
 ---
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial7.pdf){: .btn .btn-purple }
+[Solution PDF]({{ site.url }}/pdf/solution/tutorial7.pdf){: .btn .btn-green }
+
+[Class Recording](https://drive.google.com/file/d/154pNDgVkKYbz_i1XxS6Xaq6dpuTo-hia/view?usp=sharing){: .btn .btn-outline }
+[Class Whiteboard]({{ site.url }}/pdf/whiteboard/tutorial7.png){: .btn .btn-outline }
 
 ---
 
@@ -137,9 +141,9 @@ $$D_{x_{2}} =\begin{vmatrix}
 \end{vmatrix} =613.3$$
 
 $$D_{x_{3}} =\begin{vmatrix}
-0.52 & 4800 & 0.18\\
-0.20 & 5800 & 0.30\\
-0.25 & 5700 & 0.55
+0.52 & 0.30 & 4800\\
+0.20 & 0.50 & 5800\\
+0.25 & 0.20 & 5700
 \end{vmatrix} =444$$
 
 
@@ -209,8 +213,7 @@ V_{4} -V_{2} +V_{4} & =0\\
 Putting Equation (1) - (3) into matrix and solve for $$ V_{2}$$, $$ V_{3}$$, $$V_4$$:
 
 
-\begin{equation*}
-\begin{bmatrix}
+$$\begin{bmatrix}
 21 & -10 & -1\\
 -1 & 2 & 0\\
 -1 & 0 & 2
@@ -222,8 +225,7 @@ V_{4}
 12\\
 8.7\\
 0
-\end{bmatrix}
-\end{equation*}
+\end{bmatrix}$$
 
 
 $$D=\begin{vmatrix}
@@ -232,19 +234,19 @@ $$D=\begin{vmatrix}
 -1 & 0 & 2
 \end{vmatrix} =62$$
 
-$$D_{V_{1}} =\begin{vmatrix}
+$$D_{V_{2}} =\begin{vmatrix}
 12 & -10 & -1\\
 8.7 & 2 & 0\\
 0 & 0 & 2
 \end{vmatrix} =222$$
 
-$$D_{V_{2}} =\begin{vmatrix}
+$$D_{V_{3}} =\begin{vmatrix}
 21 & 12 & -1\\
 -1 & 8.7 & 0\\
 -1 & 0 & 2
 \end{vmatrix} =380.7$$
 
-$$D_{V_{3}} =\begin{vmatrix}
+$$D_{V_{4}} =\begin{vmatrix}
 21 & -10 & 12\\
 -1 & 2 & 8.7\\
 -1 & 0 & 0
@@ -328,12 +330,12 @@ $$D=\begin{vmatrix}
 -10 & 11
 \end{vmatrix} =131$$
 
-$$D_{V_{1}} =\begin{vmatrix}
+$$D_{V_{2}} =\begin{vmatrix}
 87 & -10\\
 0 & 11
 \end{vmatrix} =957$$
 
-$$D_{V_{2}} =\begin{vmatrix}
+$$D_{V_{3}} =\begin{vmatrix}
 21 & -87\\
 -10 & 0
 \end{vmatrix} =870$$
