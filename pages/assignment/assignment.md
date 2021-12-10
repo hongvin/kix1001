@@ -29,8 +29,10 @@ $$\frac{dV}{dt} =\dot{V}_{fresh\ air} -\dot{V}_{stale\ air} =\frac{0.04}{100} F-
 where,
 
 (i) $$V(t)$$ is the volume of CO$$_{2}$$ (in m$$^{3}$$) in the room at time $$t$$ (in min), i.e. $$\frac{CO_{2} \ \text{in } \%}{100} \times \text{room size} ,\ R$$.
+
 (ii) $$\dot{V}_{fresh\ air}$$ is the input rate of fresh air that is circulated into the room at a constant F (in m$$^{3}$$/min) with 0.04% CO$$_{2}$$. Assume the stale air and fresh air mix immediately in the room.
-(iii) $$\dot{V}_{stale\ air}$$ is the output rate of stale air that leave the room at a constant $$F$ m$$^{3}$$/min with CO$$_{2}$$ concentration of $$\left\{V(t) \div \text{room size}\right\}$$. 
+
+(iii) $$\dot{V}_{stale\ air}$$ is the output rate of stale air that leave the room at a constant $$F$$ m$$^{3}$$/min with CO$$_{2}$$ concentration of $$\left\{V(t) \div \text{room size}\right\}$$. 
 
 (1) Initially, the room contains 0.30% by volume of CO$$_{2}$$. Design the required flow rate of the fresh air, $$F$$ (in m$$^{3}$$/min) if you wish to reduce the level of CO$$_{2}$$ in the room to 0.05% in 5 minutes.
 
