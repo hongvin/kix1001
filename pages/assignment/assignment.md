@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Python
+title: "Assignment"
 nav_order: 3
-has_children: true
+has_children: false
 permalink: /assignment
 has_toc: false
+mathjax: true
 ---
 
 # Assignment 1
