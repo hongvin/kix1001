@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MATLAB
-nav_order: 4
+nav_order: 5
 has_children: true
 permalink: /matlab
 has_toc: false

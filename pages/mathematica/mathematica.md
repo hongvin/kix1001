@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mathematica
-nav_order: 6
+nav_order: 7
 has_children: true
 permalink: /mathematica
 has_toc: false
