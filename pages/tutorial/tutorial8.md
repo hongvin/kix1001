@@ -13,7 +13,7 @@ permalink: /tutorial8
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial8.pdf){: .btn .btn-purple }
 [Solution PDF]({{ site.url }}/pdf/solution/tutorial8.pdf){: .btn .btn-green }
 
-[Class Recording](https://drive.google.com/file/d/1WxopwnRqvYD0K82Trp6NzwkMtJZ6-5Cx/view?usp=sharing)
+[Class Recording](https://drive.google.com/file/d/1WxopwnRqvYD0K82Trp6NzwkMtJZ6-5Cx/view?usp=sharing){: .btn .btn-outline }
 [Class Whiteboard]({{ site.url }}/pdf/whiteboard/tutorial8.png){: .btn .btn-outline }
 
 ---
@@ -25,8 +25,6 @@ permalink: /tutorial8
 
 Let $$u=\ln\left( x^{2} +2\right)$$, $$dv=dx$$
 
-| | |
-|:---|:---|
 
 | $$\begin{aligned} u & =\ln\left( x^{2} +2\right)\\ du & =\frac{2x}{x^{2} +2} dx \end{aligned}$$ | $$\begin{aligned} dv & =dx\\ v & =x \end{aligned}$$ <br />So,<br />$$\begin{aligned}\int \ln\left( x^{2} +2\right) dx & =x\ln\left( x^{2} +2\right) -2\int \frac{x^{2}}{x^{2} +2} dx\\& =x\ln\left( x^{2} +2\right) -2\int \left( 1-\frac{2}{x^{2} +2}\right) dx\\& =x\ln\left( x^{2} +2\right) -2x+\frac{4}{\sqrt{2}}\tan^{-1}\left(\frac{x}{\sqrt{2}}\right) +C\\& =\mathbf{x\left(\ln\left( x^{2} +2\right) -2\right) +2\sqrt{2}\tan^{-1}\left(\frac{x}{\sqrt{2}}\right) +C}\end{aligned}$$ |
 
@@ -40,16 +38,7 @@ Let $$u=\ln\left( x^{2} +2\right)$$, $$dv=dx$$
 Let $$u=\ln x$$, $$dv=x^{2} \ dx$$
 
 
-$$\begin{aligned}
-u & =\ln x\\
-du & =\frac{dx}{x}
-\end{aligned}$$
-
-
-$$\begin{aligned}
-dv & =dx\\
-v & =\frac{x^{3}}{3}
-\end{aligned}$$
+| $$\begin{aligned} u & =\ln x\\ du & =\frac{dx}{x} \end{aligned}$$ | $$\begin{aligned} dv & =dx\\ v & =\frac{x^{3}}{3} \end{aligned}$$ |
         
 So,
 
@@ -68,23 +57,7 @@ $$\begin{aligned}
 
 Let $$u=x^{2}$$ and $$dv=xe^{x^{2}} dx$$.
 
-$$\begin{aligned}
-u & =x^{2}\\
-du & =2x\ dx
-\end{aligned}$$
-
-$$dv =xe^{x^{2}}$$
-
-Let $$w=x^{2} \Longrightarrow \frac{dw}{dx} =2x\equiv dx=\frac{dw}{2x}$$
-
-
-$$\begin{aligned}
-v & =\int xe^{x^{2}} dx\\
- & =\int xe^{w}\frac{dw}{2x}\\
- & =\frac{1}{2}\int e^{w} dw\\
- & =\frac{1}{2} e^{w}\\
- & =\frac{1}{2} e^{x^{2}}
-\end{aligned}$$
+| $$\begin{aligned} u & =x^{2}\\ du & =2x\ dx \end{aligned}$$ | $$dv =xe^{x^{2}}$$ <br />Let $$w=x^{2} \Longrightarrow \frac{dw}{dx} =2x\equiv dx=\frac{dw}{2x}$$ <br />$$\begin{aligned} v & =\int xe^{x^{2}} dx\\ & =\int xe^{w}\frac{dw}{2x}\\ & =\frac{1}{2}\int e^{w} dw\\ & =\frac{1}{2} e^{w}\\ & =\frac{1}{2} e^{x^{2}} \end{aligned}$$ |
 
 So,
 
