@@ -20,11 +20,12 @@ This website contains all necessary info for the tutorial of KIX1001! I am your 
 [Suggestions/Feedbacks](https://airtable.com/shrLJmFsuMAnIqujf){: .btn }
 
 [Check Your Attendance here](https://airtable.com/shr34eAUCmCEWDClF){: .btn }
+[Buy Hard Copy Lecture Note](https://shopee.com.my/product/558403004/13332594245/){: .btn .btn-green }
 
 ---
 
 <span class="fs-8">
-[Buy Hard Copy Lecture Note](https://shopee.com.my/product/558403004/13332594245/){: .btn }
+[Assignment Submission Link](https://airtable.com/shrZ6JfJlrmrIVHR){: .btn }
 </span>
 
 ---
