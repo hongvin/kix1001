@@ -13,6 +13,7 @@ permalink: /tutorial8
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial8.pdf){: .btn .btn-purple }
 [Solution PDF]({{ site.url }}/pdf/solution/tutorial8.pdf){: .btn .btn-green }
 
+[Class Recording](https://drive.google.com/file/d/1WxopwnRqvYD0K82Trp6NzwkMtJZ6-5Cx/view?usp=sharing)
 [Class Whiteboard]({{ site.url }}/pdf/whiteboard/tutorial8.png){: .btn .btn-outline }
 
 ---
