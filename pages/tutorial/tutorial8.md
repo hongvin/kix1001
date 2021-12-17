@@ -25,27 +25,10 @@ permalink: /tutorial8
 
 Let $$u=\ln\left( x^{2} +2\right)$$, $$dv=dx$$
 
+| | |
+|:---|:---|
 
-$$\begin{aligned}
-u & =\ln\left( x^{2} +2\right)\\
-du & =\frac{2x}{x^{2} +2} dx
-\end{aligned}$$
-
-
-$$\begin{aligned}
-dv & =dx\\
-v & =x
-\end{aligned}$$
-
-So,
-
-
-$$\begin{aligned}
-\int \ln\left( x^{2} +2\right) dx & =x\ln\left( x^{2} +2\right) -2\int \frac{x^{2}}{x^{2} +2} dx\\
- & =x\ln\left( x^{2} +2\right) -2\int \left( 1-\frac{2}{x^{2} +2}\right) dx\\
- & =x\ln\left( x^{2} +2\right) -2x+\frac{4}{\sqrt{2}}\tan^{-1}\left(\frac{x}{\sqrt{2}}\right) +C\\
- & =\mathbf{x\left(\ln\left( x^{2} +2\right) -2\right) +2\sqrt{2}\tan^{-1}\left(\frac{x}{\sqrt{2}}\right) +C}
-\end{aligned}$$
+| $$\begin{aligned} u & =\ln\left( x^{2} +2\right)\\ du & =\frac{2x}{x^{2} +2} dx \end{aligned}$$ | $$\begin{aligned} dv & =dx\\ v & =x \end{aligned}$$ <br />So,<br />$$\begin{aligned}\int \ln\left( x^{2} +2\right) dx & =x\ln\left( x^{2} +2\right) -2\int \frac{x^{2}}{x^{2} +2} dx\\& =x\ln\left( x^{2} +2\right) -2\int \left( 1-\frac{2}{x^{2} +2}\right) dx\\& =x\ln\left( x^{2} +2\right) -2x+\frac{4}{\sqrt{2}}\tan^{-1}\left(\frac{x}{\sqrt{2}}\right) +C\\& =\mathbf{x\left(\ln\left( x^{2} +2\right) -2\right) +2\sqrt{2}\tan^{-1}\left(\frac{x}{\sqrt{2}}\right) +C}\end{aligned}$$ |
 
 ---
 
@@ -88,10 +71,7 @@ Let $$u=x^{2}$$ and $$dv=xe^{x^{2}} dx$$.
 $$\begin{aligned}
 u & =x^{2}\\
 du & =2x\ dx
-\end{aligned}
-\vspace{-1em}\end{equation*} & \makecell[l]{
-\begin{equation*}
-\begin{aligned}$$
+\end{aligned}$$
 
 $$dv =xe^{x^{2}}$$
 
