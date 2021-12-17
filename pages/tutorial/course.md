@@ -19,7 +19,7 @@ This website contains all necessary info for the tutorial of KIX1001! I am your 
 [Personal Information Form](https://airtable.com/shrwrDqqO8amEDrEA){: .btn .btn-blue }
 [Suggestions/Feedbacks](https://airtable.com/shrLJmFsuMAnIqujf){: .btn }
 
-[Check Your Attendance here](https://airtable.com/shr34eAUCmCEWDClF){: .btn }
+[Check Your Attendance here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTgnEnexPkn15TLRaTubkbWWq5W4My7_CaMjkZGiHCY2HilIUylTP6RBpG5yqr4Pg/pubhtml?gid=2136515124&single=true){: .btn }
 [Buy Hard Copy Lecture Note](https://shopee.com.my/product/558403004/13332594245/){: .btn .btn-green }
 
 ---
