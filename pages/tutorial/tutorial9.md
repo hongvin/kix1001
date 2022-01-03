@@ -13,7 +13,7 @@ permalink: /tutorial9
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial9.pdf){: .btn .btn-purple }
 [Solution PDF]({{ site.url }}/pdf/solution/tutorial9.pdf){: .btn .btn-green }
 
-[Class Recording](){: .btn .btn-outline }
+[Class Recording](https://drive.google.com/file/d/12pM4YyYUDuMUtpxPAkWwN8tA5OImRGgG/view?usp=sharing){: .btn .btn-outline }
 [Class Whiteboard]({{ site.url }}/pdf/whiteboard/tutorial9.png){: .btn .btn-outline }
 
 ---
@@ -82,9 +82,9 @@ L & =\int _{0}^{a}\sqrt{1+( y')^{2}} \ dx\\
  & =\int _{0}^{a}\sqrt{1+\frac{1}{4} e^{\frac{2x}{a}} -\frac{1}{2} +\frac{1}{4} e^{-\frac{2x}{a}}} dx\\
  & =\int _{0}^{a}\sqrt{\frac{1}{4} e^{\frac{2x}{a}} +\frac{1}{2} +\frac{1}{4} e^{-\frac{2x}{a}}} dx\\
  & =\int _{0}^{a}\sqrt{\frac{1}{4}\left[ e^{\frac{2x}{a}} +2+ e^{-\frac{2x}{a}}\right]} dx\\
- & =\int _{0}^{a}\sqrt{\frac{1}{4}\left( e^{\frac{x}{a}} -e^{-\frac{x}{a}}\right)^{2}} dx\\
- & =\int _{0}^{a}\frac{1}{2}\left( e^{\frac{x}{a}} -e^{-\frac{x}{a}}\right) \ dx\\
- & =\frac{1}{2}\int _{0}^{a}\left( e^{\frac{x}{a}} -e^{-\frac{x}{a}}\right) \ dx\\
+ & =\int _{0}^{a}\sqrt{\frac{1}{4}\left( e^{\frac{x}{a}} +e^{-\frac{x}{a}}\right)^{2}} dx\\
+ & =\int _{0}^{a}\frac{1}{2}\left( e^{\frac{x}{a}} +e^{-\frac{x}{a}}\right) \ dx\\
+ & =\frac{1}{2}\int _{0}^{a}\left( e^{\frac{x}{a}} +e^{-\frac{x}{a}}\right) \ dx\\
  & =\frac{1}{2}\left[\left. \frac{e^{\frac{x}{a}}}{\frac{1}{a}} -\frac{e^{-\frac{x}{a}}}{\frac{1}{a}}\right| _{0}^{a}\right]\\
  & =\frac{1}{2} \div a\left[ e^{1} +e^{-1} -1+1\right]\\
  & =\mathbf{\frac{a}{2}\left[ e-e^{-1}\right]}
