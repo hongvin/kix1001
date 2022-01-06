@@ -37,7 +37,7 @@ $$\begin{aligned}
 
 #### <u>Question (b)</u>
 
-![Graph for solution of Question 1(b)](images/t10.1.png)
+<img src="{{ site.url }}/pages/tutorial/images/t10.1.png" alt="Graph for solution of Question 1(b)" width="300"/>
 
 Two inequalities:
 
@@ -60,7 +60,7 @@ $$\begin{aligned}
 ---
 ### Solution
 
-![Graph for solution of Question 2](images/t10.2.png)
+<img src="{{ site.url }}/pages/tutorial/images/t10.2.png" alt="Graph for solution of Question 2" width="300"/>
 
 Two inequalities:
 
@@ -116,7 +116,7 @@ $$\begin{aligned}
 ---
 ### Solution
 
-![Graph for solution of Question 4](images/t10.3.png)
+<img src="{{ site.url }}/pages/tutorial/images/t10.3.png" alt="Graph for solution of Question 4" width="300"/>
 
 Limit of the variable:
 
@@ -144,7 +144,7 @@ $$\begin{aligned}
 
 ## Q5: Find the volume of the region bounded by the paraboloid $$z=4-4x^{2} -4y^{2}$$ and the plane $$z=0$$.
 
-![Image for Question 5](images/t10.4.png)
+<img src="{{ site.url }}/pages/tutorial/images/t10.4.png" alt="Image for Question 5" width="300"/>
 
 ---
 ### Solution
