@@ -168,7 +168,7 @@ The limit:	$$0\leqslant \theta \leqslant 2\pi \qquad 0\leqslant r\leqslant 1$$
 
 $$\begin{aligned}
 V & =\int \int\limits _{D}\left( 4-4x^{2} -4y^{2}\right) dA\\
- & =\int \int\limits _{D} 4\left( 1-\left( x^{2} -y^{2}\right)\right) dA\\
+ & =\int \int\limits _{D} 4\left( 1-\left( x^{2} +y^{2}\right)\right) dA\\
  & =\int _{0}^{2\pi }\int\nolimits _{0}^{1} 4\left( 1-r^{2}\right) r\ drd\theta \\
  & =4\int _{0}^{2\pi } d\theta \ \int _{0}^{1}\left( r-r^{3}\right) \ dr\\
  & =4\ \cdot \ \theta | _{0}^{2\pi } \ \cdot \ \left. \frac{r^{2}}{2} -\frac{r^{4}}{4}\right| _{0}^{1}\\
