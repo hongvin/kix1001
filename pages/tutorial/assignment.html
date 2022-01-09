@@ -1,0 +1,85 @@
+<script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+
+<script type="tailwind-config">
+{
+  theme: {
+    extend: {
+      colors: {
+        gray: colors.blueGray,
+      }
+    }
+  }
+}
+</script>
+
+<script>
+    var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status === 200) {
+        callback(null, xhr.response);
+      } else {
+        callback(status, xhr.response);
+      }
+    };
+    xhr.send();
+};
+
+getJSON('https://us-central1-kix1001.cloudfunctions.net/getSubmissions',
+function(err, data) {
+  if (err !== null) {
+    alert('Something went wrong when getting the count of assignment submission: ' + err);
+  } else {
+    // alert('Your query count: ' + data.count);
+    document.getElementById("total").innerHTML = data.count;
+    document.getElementById("student").innerHTML = data.matrix;
+  }
+});
+</script>
+
+<style>
+section {
+  font-family: 'Inter', sans-serif;
+}
+</style>
+
+<!-- Snippet -->
+<section class="flex flex-col justify-center antialiased bg-gray-50 text-gray-600 min-h-screen p-4">
+    <div class="h-full">
+        <!-- Card -->
+        <div class="max-w-2xl mx-auto bg-indigo-600 shadow-lg rounded-lg">
+            <div class="px-6 py-5">
+                <div class="flex items-start">
+                    <!-- Icon -->
+                    <svg class="fill-current flex-shrink-0 mr-5" width="30" height="30" viewBox="0 0 30 30">
+                        <path class="text-indigo-300" d="m16 14.883 14-7L14.447.106a1 1 0 0 0-.895 0L0 6.883l16 8Z" />
+                        <path class="text-indigo-200" d="M16 14.619v15l13.447-6.724A.998.998 0 0 0 30 22V7.619l-14 7Z" />
+                        <path class="text-indigo-500" d="m16 14.619-16-8V21c0 .379.214.725.553.895L16 29.619v-15Z" />
+                    </svg>
+                    <!-- Card content -->
+                    <div class="flex-grow truncate">
+                        <!-- Card header -->
+                        <div class="w-full sm:flex justify-between items-center mb-3">
+                            <!-- Title -->
+                            <h2 class="text-2xl leading-snug font-extrabold text-gray-50 truncate mb-1 sm:mb-0">Assignment 1 Submission</h2>
+                            <!-- Like and comment buttons -->
+                            <div class="flex-shrink-0 flex items-center justify-center text-indigo-600 w-20 h-10 rounded-full bg-gradient-to-b from-indigo-50 to-indigo-100 hover:from-white hover:to-indigo-50 focus:outline-none focus-visible:from-white focus-visible:to-white transition duration-150 ml-2">
+                             <span class="block font-bold text-3xl" id="total">??</span>
+                            </div>
+                        </div>
+                        <!-- Card body -->
+                        <div class="flex items-end justify-between whitespace-normal">
+                            <!-- Paragraph -->
+                            <div class="max-w-md text-indigo-100 ">
+                                <p class="mb-2" id ="student">Loading submitted Matric Number...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
