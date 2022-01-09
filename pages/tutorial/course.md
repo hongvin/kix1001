@@ -16,15 +16,13 @@ This website contains all necessary info for the tutorial of KIX1001! I am your 
 [Tutorial Schedule]({{ site.url }}/tutorial){: .btn .btn-purple }
 
 [Google Meet Link](https://meet.google.com/drr-pjaw-aui){: .btn .btn-green }
-[Personal Information Form](https://airtable.com/shrwrDqqO8amEDrEA){: .btn .btn-blue }
 [Suggestions/Feedbacks](https://airtable.com/shrLJmFsuMAnIqujf){: .btn }
 
 [Check Your Attendance here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTgnEnexPkn15TLRaTubkbWWq5W4My7_CaMjkZGiHCY2HilIUylTP6RBpG5yqr4Pg/pubhtml?gid=412168835&single=true){: .btn }
-[Buy Hard Copy Lecture Note](https://shopee.com.my/product/558403004/13332594245/){: .btn .btn-green }
 
 ---
 
-<span class="fs-8">
+<span class="fs-6">
 [Assignment Submission Link](https://airtable.com/shrZ6JfJlrmrIVHRx){: .btn }
 </span>
 
