@@ -23,7 +23,7 @@ This website contains all necessary info for the tutorial of KIX1001! I am your 
 ---
 
 <span class="fs-6">
-[Assignment Submission Link](https://airtable.com/shrZ6JfJlrmrIVHRx){: .btn }
+[Assignment Submission Link](https://airtable.com/shrZ6JfJlrmrIVHRx){: .btn .btn-blue }
 </span>
 
 {% include assignment.html %}
