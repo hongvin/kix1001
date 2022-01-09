@@ -18,7 +18,3 @@ mathjax:
 footer_content: "Copyright &copy; 2021 Koay Hong Vin."
 
 ga_tracking: G-5N8F2KJCSC
-
-jekyll_get_json:
-  - data: assignment
-    json: 'https://us-central1-kix1001.cloudfunctions.net/getSubmissions'
