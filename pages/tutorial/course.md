@@ -28,6 +28,8 @@ This website contains all necessary info for the tutorial of KIX1001! I am your 
 [Assignment Submission Link](https://airtable.com/shrZ6JfJlrmrIVHRx){: .btn }
 </span>
 
+{{ site.data.assignment.count }}
+
 ---
 
 ## General Information for Tutorial Class
