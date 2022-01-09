@@ -31,9 +31,6 @@ Both PDF above is almost 400 pages, which sums to almost RM 40 if printed at RM 
 
 ### BUY NOW!
 
-[Buy Now](https://shopee.com.my/product/558403004/13332594245/){: .btn .btn-green }
+[Buy Now](https://buy.stripe.com/bIY013eBD8aV6Yw289){: .btn .btn-green }
 
-Please follow the instruction at the product page.
-
-1. If you prefer to deliver to your doorstep / minimizing contact, you can do so by selecting the courier service. (Ideal for students staying outside)
-2. If you prefer economical delivery, we will ship it to your KKs. (Ideal for stydents staying in KK)
+Pay Now (before Thursday of every week), and I will ship to you by Saturday. Free shipping throughout Malaysia.
