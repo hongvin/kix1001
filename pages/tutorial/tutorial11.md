@@ -208,7 +208,7 @@ $$e^{-t^{3}}\frac{dx}{dt} -3t^{2} e{^{-t}}^{3} x=0\ \Longrightarrow \ \frac{dx}{
 
 **Step 2:** Create integrating factor
 
-$$IF=e^{\delta p( t) dt} =e^{\delta \left( -3t^{2}\right) dt} =e^{-t^{3}}$$
+$$IF=e^{\int p( t) dt} =e^{\int \left( -3t^{2}\right) dt} =e^{-t^{3}}$$
 
 **Step 3:** Multiply 1st ODE eqn by $$IF$$
 
@@ -259,7 +259,7 @@ $$\frac{dv}{dt} -3t^{2} v+3t^{2} =0\ \Longrightarrow \ \frac{dv}{dt} -3t^{2} v=-
 
 **Step 2:** Create integrating factor
 
-$$IF=e^{\delta p( t) dt} =e^{\delta \left( -3t^{2}\right) dt} =e^{-t^{3}}$$
+$$IF=e^{\int p( t) dt} =e^{\int \left( -3t^{2}\right) dt} =e^{-t^{3}}$$
 
 **Step 3:** Multiply 1st ODE eqn by $$IF$$
 
@@ -349,7 +349,7 @@ $$x\frac{dy}{dx} +y=8\ \Longrightarrow \ \frac{dy}{dx} +\frac{y}{x} =\frac{8}{x}
 
 **Step 2:** Create integrating factor
 
-$$IF=e^{\delta p( t) dt} =e^{\delta \left(\frac{1}{x}\right) dt} =e^{\ln x} =x$$
+$$IF=e^{\int p( t) dt} =e^{\int \left(\frac{1}{x}\right) dt} =e^{\ln x} =x$$
 
 **Step 3:** Multiply 1st ODE eqn by $$IF$
 
@@ -465,7 +465,8 @@ $$\begin{aligned}
 y & =-x^{2} +C
 \end{aligned}$$
 
-![Graph for solution of Question 3(b)](images/t11.1.png)
+<img src="{{ site.url }}/pages/tutorial/images/t11.1.png" alt="Graph for solution of Question 3(b)" width="300"/>
+
 
 #### <u> Question (b) </u>
 
@@ -573,6 +574,8 @@ This is implicit solution for the system because the solution $$y( t)$$ cannot b
 
 ## What is the change of the amount of salt and also the change of its concentration over time?
 
+<img src="{{ site.url }}/pages/tutorial/images/t11.2.png" alt="Diagram of Question 5" width="300"/>
+
 ![Diagram for Question 5](images/t11.2.png)
 
 ---
@@ -600,7 +603,7 @@ $$\frac{dx}{dt} +\frac{2}{10+t} x=2$$, where $$p( t) =\frac{2}{10+t} ,\quad q( t
 
 Step 2: Create integrating factor
 
-$$IF=e^{\delta p( t) dt} =e^{\delta \left(\frac{2}{10+t}\right) dt} =e^{2\ln( 10+t)} =( 10+t)^{2}$$
+$$IF=e^{\int p( t) dt} =e^{\int \left(\frac{2}{10+t}\right) dt} =e^{2\ln( 10+t)} =( 10+t)^{2}$$
 
 **Step 3:** Multiply 1st ODE eqn by $$IF$$
 
@@ -641,7 +644,7 @@ $$c( t) =\frac{x( t)}{V( t)} =\frac{1}{10( 10+t)^{2}}\left( 200t+20t^{2} +\frac{
 ---
 ### Sample Answer
 
-![Diagram for Solution for Question 6](images/t11.3.png)
+<img src="{{ site.url }}/pages/tutorial/images/t11.3.png" alt="Diagram for solution of Question 6" width="300"/>
 
 Assuming a bungee jumper is in mid-flight, an analytical model for the jumper’s velocity, accounting for drag, is
 
@@ -660,7 +663,7 @@ $$v( t) =\sqrt{\frac{gm}{c_{d}}}\tanh\left(\sqrt{\frac{gc_{d}}{m} t}\right)$$
 
 ## (b)	$$E( t) =20e^{-3t}$$ volts
 
-![Diagram for Question 7](images/t11.4.png)
+<img src="{{ site.url }}/pages/tutorial/images/t11.4.png" alt="Diagram of Question 7" width="300"/>
 
 ---
 ### Solution
@@ -713,7 +716,7 @@ $$2\frac{di( t)}{dt} +10i( t) =40\ \Longrightarrow \ \frac{di( t)}{dt} +5i( t) =
 
 **Step 2:** Create integrating factor
 
-$$IF=e^{\delta p( t) dt} =e^{\delta 5dt} =e^{5t}$$
+$$IF=e^{\int p( t) dt} =e^{\int 5dt} =e^{5t}$$
 
 
 **Step 3:** Multiply 1st ODE eqn by $$IF$$
@@ -764,7 +767,7 @@ $$2\frac{di( t)}{dt} +10i( t) =20e^{-3t} \ \Longrightarrow \ \frac{di( t)}{dt} +
 
 **Step 2:** Create integrating factor
 
-$$IF=e^{\delta p( t) dt} =e^{\delta 5dt} =e^{5t}$$
+$$IF=e^{\int p( t) dt} =e^{\int 5dt} =e^{5t}$$
 
 
 **Step 3:** Multiply 1st ODE eqn by $$IF$
@@ -806,7 +809,7 @@ Thus, $$\mathbf{q( t) =-\frac{5}{3} e^{-3t} +e^{-5t} +\frac{5}{3}}$$
 
 ## Q8: When a hot liquid is placed on a cooler environment, experimental observation shows that its temperature decreases to approximately that of its surroundings. A typical graph of the temperature of the liquid plotted against time is shown in the figure below:
 
-![Diagram for Question 8](images/t11.5.png)
+<img src="{{ site.url }}/pages/tutorial/images/t11.5.png" alt="Diagram for Question 8" width="300"/>
 
 ## After an initially rapid decrease the temperature changes progressively less rapidly and eventually the curve appears to ‘flatten out’. Newton’s law of cooling states that the rate of cooling of liquid is proportional to the difference between its temperature and the temperature of its environment (the ambient temperature). To convert this into mathematics, let $$t$$ be the time elapsed (in seconds, s), $$\theta$$ the temperature of the liquid (°C), and $$\theta _{0}$$ the temperature of the liquid at the start ($$t\ =\ 0$$). The temperature of the surroundings is denoted by $$\theta _{s}$$. The mathematical expression of Newton’s law of cooling is thus $$\frac{d\theta }{dt} \varpropto ( \theta -\theta _{s})$$, or $$\frac{d\theta }{dt} =-k( \theta -\theta _{s})$$. Here, $$k$$ is a positive constant of proportionality and the negative sign is present because $$( \theta -\theta _{s})$$ is positive, whereas $$\frac{d\theta }{dt}$$ must be negative because $$\theta$$ decreases with time. Thus, this justifies the presence of the negative sign.
 
