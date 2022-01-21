@@ -14,7 +14,7 @@ mathjax: true
 
 ---
 [Question PDF]({{ site.url }}/pdf/assignment/question.pdf){: .btn .btn-purple }
-
+[Solution Script](https://colab.research.google.com/drive/18LceP4i1P7xWgIjwoJksndV4jRzwivY2?usp=sharing)
 
 ---
 
