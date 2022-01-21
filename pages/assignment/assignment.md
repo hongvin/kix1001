@@ -14,7 +14,7 @@ mathjax: true
 
 ---
 [Question PDF]({{ site.url }}/pdf/assignment/question.pdf){: .btn .btn-purple }
-[Submission](https://airtable.com/shrZ6JfJlrmrIVHRx){: .btn .btn-green }
+
 
 ---
 
