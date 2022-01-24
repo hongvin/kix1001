@@ -22,6 +22,12 @@ This website contains all necessary info for the tutorial of KIX1001! I am your 
 
 ---
 
+## View your marked assignment here!
+
+{% include assignment_check.html %}
+
+---
+
 ## General Information for Tutorial Class
 
 1. The schedule of tutorial is available over [here]({{ site.url }}/tutorial).
