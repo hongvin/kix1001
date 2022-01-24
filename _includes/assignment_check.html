@@ -1,0 +1,138 @@
+<script>
+    var getJSON = function (url, callback) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.responseType = 'json';
+        xhr.onload = function () {
+            var status = xhr.status;
+            if (status === 200) {
+                callback(null, xhr.response);
+            } else {
+                callback(status, xhr.response);
+            }
+        };
+        xhr.send();
+    };
+    var url = "";
+    function getMarkedAssignment() {
+        const email = document.getElementById("email").value;
+        var errorMsg = document.getElementById("error");
+        var availMsg = document.getElementById("correct");
+        var viewBut = document.getElementById("view");
+
+        errorMsg.style.display = "none";
+        availMsg.style.display = "none";
+        viewBut.style.display = "none";
+        getJSON(`https://us-central1-kix1001.cloudfunctions.net/getMarkedAssignment?email=${email}`,
+            function (err, data) {
+                if (err !== null) {
+                    errorMsg.style.display = "block";
+                } else {
+                    availMsg.style.display = "block";
+                    viewBut.style.display = "block";
+                    url = data.fileURL;
+                }
+            });
+    }
+
+    function visit() {
+        window.location = url;
+    }
+</script>
+
+<style>
+    .input-group {
+        color: #333;
+        float: left;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        line-height: 20px;
+        margin: 0 20px 10px;
+    }
+
+    .textbox-group {
+        width: 200px;
+    }
+
+    .button-group {
+        width: 100px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    .view-button {
+        display: none;
+    }
+
+    button {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        padding: 15px 30px;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        color: #725AC1;
+        background: transparent;
+        cursor: pointer;
+        transition: ease-out 0.5s;
+        border-radius: 30px;
+        border: 2px solid #725AC1;
+        border-radius: 10px;
+        box-shadow: inset 0 0 0 0 #725AC1;
+    }
+
+    button:hover {
+        color: white;
+        box-shadow: inset 0 -100px 0 0 #725AC1;
+    }
+
+    button:active {
+        transform: scale(0.9);
+    }
+
+    input[type=text] {
+        background: #fff;
+        border: 1px solid #999;
+        float: left;
+        font-size: 13px;
+        height: 33px;
+        margin: 0;
+        padding: 0 0 0 15px;
+        width: 100%;
+    }
+
+    .error-message {
+        color: #cc0033;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 5px 0 0;
+        display: none;
+    }
+
+    .avail-message {
+        color: #7FFF00;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 5px 0 0;
+        display: none;
+    }
+</style>
+
+<!-- Input Field -->
+<div class="input-group textbox-group">
+    <label>Email used for submission *</label>
+    <input type="text" id="email">
+    <div class="error-message" id="error">Not Found. Please check again.</div>
+    <div class="avail-message" id="correct">Matched. Proceed to click the view button now!</div>
+</div>
+<div class="input-group button-group">
+    <button id="download" onClick="getMarkedAssignment()">Check</button>
+</div>
+<div class="input-group button-group">
+    <button id="view" class="view-button" onclick="visit()">View</button>
+</div>
