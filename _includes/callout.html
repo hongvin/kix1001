@@ -1,0 +1,35 @@
+<style>
+    .callout {
+        position: relative;
+        border: 1px solid #f9c9bf;
+        background: #fff;
+        font-size: 14px;
+        color: #333;
+        padding: 17px;
+        border-radius: 2px;
+        border-radius: 3px;
+    }
+
+    .callout::before {
+        border-radius: 3px 0 0 3px;
+        height: calc(100% + 2px);
+        position: absolute;
+        width: 8px;
+        left: -1px;
+        top: -1px;
+        content: "";
+    }
+
+    .callout.error {
+        border-color: #ba5a5a;
+        background: #ffd0c6;
+    }
+
+    .callout.error::before {
+        background: #ff3232;
+    }
+</style>
+
+<p class="callout error">
+    This website will be available until <b>8 Feb 2022</b>. All the solution PDF to tutorial will be taken down by then. Only the web version and class recordings will remain.
+</p>

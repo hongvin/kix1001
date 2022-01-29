@@ -11,7 +11,6 @@ permalink: /tutorial14
 
 ---
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial14.pdf){: .btn .btn-purple }
-btn .btn-purple }
 [Solution PDF]({{ site.url }}/pdf/solution/tutorial14.pdf){: .btn .btn-green }
 
 ---

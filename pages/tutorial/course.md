@@ -9,6 +9,8 @@ has_toc: false
 
 # Welcome to KIX1001: Engineering Mathematics I
 
+{% include callout.html %}
+
 This website contains all necessary info for the tutorial of KIX1001! I am your friendly instructor - Hong Vin. The following only applies if you are from Tutorial Group 1.
 
 ---
