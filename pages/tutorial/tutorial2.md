@@ -11,11 +11,8 @@ permalink: /tutorial2
 
 ---
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial2.pdf){: .btn .btn-purple }
-[Solution PDF]({{ site.url }}/pdf/solution/tutorial2.pdf){: .btn .btn-green }
 
 [Class Recording](https://drive.google.com/file/d/1BrLgJp9ob-b5qPsbDFKlSFqFwcyj9YAW/view?usp=sharing){: .btn .btn-outline }
-[Solution Slides]({{ site.url }}/pdf/slides/tutorial2.pdf){: .btn .btn-outline }
-[Class Whiteboard]({{ site.url }}/pdf/whiteboard/tutorial2.png){: .btn .btn-outline }
 
 [Solving using MATLAB]({{ site.url }}/matlab2){: .btn .btn-outline }
 [Solving using Python]({{ site.url }}/python2){: .btn .btn-outline }

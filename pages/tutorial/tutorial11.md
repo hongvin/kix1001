@@ -11,7 +11,6 @@ permalink: /tutorial11
 
 ---
 [Tutorial PDF]({{ site.url }}/pdf/tutorial/tutorial11.pdf){: .btn .btn-purple }
-[Solution PDF]({{ site.url }}/pdf/solution/tutorial11.pdf){: .btn .btn-green }
 
 [Class Recording](https://drive.google.com/file/d/1hFCJDnMwQNUZcLGIdX2Zw04B73Kfg8su/view?usp=sharing){: .btn .btn-outline }
 
